@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./backend
+    volumes:
+      - ./backend/:/usr/src/app
+    command: flask run
+    env_file:
+      - ./.env
+    ports:
+      - "5000:5000"
+  frontend:
+    container_name: front
+    build:
+      context: ./front
+    volumes:
+      - ./front/:/usr/src/app
+      - /usr/src/app/node_modules
+    command: npm start
+    ports:
+      - "3000:3000"
