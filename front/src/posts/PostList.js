@@ -32,7 +32,8 @@ class PostList extends React.Component {
 }
 const mapStateToProps = (state) => {
   return {
-    posts: state.posts,
+    // {1: {}, 2:{}} -> [{}, {}]
+    posts: Object.values(state.posts),
   };
 };
 

@@ -7,13 +7,13 @@ services:
       context: ./backend
     volumes:
       - ./backend/:/usr/src/app
-    command: flask run
+    command: flask run --host=0.0.0.0 --port=5000
     env_file:
       - ./.env
     ports:
-      - "5000:5000"
+      - 5000:5000
   frontend:
-    container_name: front
+    container_name: fronta
     build:
       context: ./front
     volumes:
@@ -21,4 +21,4 @@ services:
       - /usr/src/app/node_modules
     command: npm start
     ports:
-      - "3000:3000"
+      - 3000:3000
