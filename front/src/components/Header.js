@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div class="ui inverted menu">
-      <a class="active item">Home</a>
-      <div class="right menu">
-        <a class="item">Post</a>
+    <div className="ui inverted menu">
+      <Link to="/" className="item">
+        Home
+      </Link>
+      <div className="right menu">
+        <Link to="/post" className="item">
+          Post
+        </Link>
       </div>
     </div>
   );
