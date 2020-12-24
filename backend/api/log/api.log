@@ -1,0 +1,146 @@
+2020-12-24 13:39:04,388 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 13:41:02,886 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 13:41:02] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:05:05,956 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:05] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:08,202 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:08] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:10,407 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:10] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:10,995 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:10] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:11,374 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:11] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:11,584 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:11] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:11,734 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:11] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:11,902 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:11] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:12,075 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:12] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:12,164 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:12] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:12,360 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:12] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:05:29,906 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:05:31,211 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:05:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:07:52,430 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:07:52] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:08:27,648 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:08:27] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:08:28,540 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:08:28] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:08:28,940 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:08:28] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:08:29,311 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:08:29] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:08:29,821 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:08:29] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:08:37,221 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:08:37] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:09:45,178 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:09:45] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:11:01,199 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:11:31,717 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:11:48,993 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:11:48] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:14:03,608 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:14:03] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:15:43,444 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:16:17,135 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:16:17] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:16:21,880 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:16:21] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:16:21,902 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:16:21] "[31m[1mPOST /posts HTTP/1.1[0m" 400 -
+2020-12-24 14:20:58,754 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:21:08,692 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:21:08] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:21:15,122 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:21:15] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:21:18,977 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:21:18] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:21:18,995 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:21:18] "[31m[1mPOST /posts HTTP/1.1[0m" 400 -
+2020-12-24 14:23:23,546 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:23:23] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:23:23,573 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:23:23] "[31m[1mPOST /posts HTTP/1.1[0m" 400 -
+2020-12-24 14:26:39,095 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:26:54,393 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:26:54] "[37mOPTIONS / HTTP/1.1[0m" 200 -
+2020-12-24 14:26:58,876 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:26:58] "[37mOPTIONS / HTTP/1.1[0m" 200 -
+2020-12-24 14:27:03,318 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:27:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:27:11,464 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:27:11] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:27:11,496 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:27:11] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:27:35,485 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:27:35] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:27:35,511 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:27:35] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:27:43,931 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:27:43] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:28:05,998 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:28:05] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:28:06,057 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:28:06] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:28:06,826 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:28:06] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:30:28,126 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:30:43,719 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:30:43] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:30:47,857 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:30:47] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:30:47,880 views INFO {'title': 'first post', 'content': 'content6'}
+2020-12-24 14:30:47,883 views INFO first post
+2020-12-24 14:30:47,885 views INFO content6
+2020-12-24 14:30:47,889 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:30:47] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:32:52,157 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:33:08,732 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:35:37,450 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:35:37] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:35:56,108 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:35:56] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:35:56,148 views INFO {'title': 'finish create', 'content': 'おつかれ'}
+2020-12-24 14:35:56,163 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:35:56] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:35:58,693 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:35:58] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:36:09,443 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:36:09] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:36:09,459 views INFO {'title': 'aaa', 'content': 'まだまだ'}
+2020-12-24 14:36:09,463 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:36:09] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:36:10,163 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:36:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:36:19,455 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:36:19] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:36:19,489 views INFO {'title': 'なんで', 'content': 'content6'}
+2020-12-24 14:36:19,494 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:36:19] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:36:20,681 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:36:20] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:37:08,383 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:37:21,044 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:37:21] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:37:25,764 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:37:25] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:37:25,799 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 14:37:25,807 views INFO {1: {'title': 'title1', 'content': 'content1'}, 2: {'title': 'title2', 'content': 'content2'}, 3: {'title': 'title3', 'content': 'content3'}, 4: {'title': 'title4', 'content': 'content4'}, 5: {'title': 'title5', 'content': 'content5'}, 6: {'title': 'title6', 'content': 'content6'}}
+2020-12-24 14:37:25,811 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:37:25] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:37:26,461 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:37:26] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:39:16,607 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:39:31,489 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:39:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:39:35,367 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:39:35] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:39:35,401 views INFO {'title': 'first post', 'content': 'content6'}
+2020-12-24 14:39:35,405 views INFO {'title': 'first post', 'content': 'content6'}
+2020-12-24 14:39:35,408 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:39:35] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:39:51,248 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:39:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:40:21,790 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:40:21] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:41:34,482 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:41:34] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:47:42,342 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:47:42] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:48:02,226 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:02] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:48:16,362 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:16] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:48:20,283 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:20] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:48:25,595 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:48:29,847 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:29] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:48:29,874 views INFO {'title': 'first post', 'content': 'おつかれ'}
+2020-12-24 14:48:29,881 views INFO {'title': 'first post', 'content': 'おつかれ'}
+2020-12-24 14:48:29,889 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:29] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:48:29,978 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:48:47,228 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:47] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:48:47,257 views INFO {'title': 'second post', 'content': 'second post'}
+2020-12-24 14:48:47,265 views INFO {'title': 'second post', 'content': 'second post'}
+2020-12-24 14:48:47,273 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:47] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:48:47,368 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:48:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:49:29,470 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:50:06,436 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:50:06] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:50:10,654 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:50:10] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:50:10,675 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 14:50:10,678 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 14:50:10,685 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:50:10] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:50:10,757 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:50:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:54:56,087 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 14:57:49,148 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:57:49] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:57:52,778 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:57:52] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:57:52,801 views INFO {'title': 'first post', 'content': 'content6'}
+2020-12-24 14:57:52,810 views INFO {1: {'title': 'title1', 'content': 'content1'}, 2: {'title': 'title2', 'content': 'content2'}, 3: {'title': 'title3', 'content': 'content3'}, 4: {'title': 'title4', 'content': 'content4'}, 5: {'title': 'title5', 'content': 'content5'}, 6: {'title': 'first post', 'content': 'content6'}}
+2020-12-24 14:57:52,819 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:57:52] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:57:52,902 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:57:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:59:25,960 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:59:25] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:59:25,975 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 14:59:25,977 views INFO {1: {'title': 'title1', 'content': 'content1'}, 2: {'title': 'title2', 'content': 'content2'}, 3: {'title': 'title3', 'content': 'content3'}, 4: {'title': 'title4', 'content': 'content4'}, 5: {'title': 'title5', 'content': 'content5'}, 6: {'title': 'first post', 'content': 'content6'}, 7: {'title': 'title6', 'content': 'content6'}}
+2020-12-24 14:59:25,985 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:59:25] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 14:59:26,043 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 14:59:26] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 14:59:56,478 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 15:00:14,769 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:00:14] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 15:00:22,784 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:00:22] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 15:00:22,796 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 15:00:22,798 views INFO {1: {'title': 'title1', 'content': 'content1'}, 2: {'title': 'title2', 'content': 'content2'}, 3: {'title': 'title3', 'content': 'content3'}, 4: {'title': 'title4', 'content': 'content4'}, 5: {'title': 'title5', 'content': 'content5'}, 6: {'title': 'title6', 'content': 'content6'}}
+2020-12-24 15:00:22,801 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:00:22] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 15:00:22,872 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:00:22] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 15:01:57,275 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 15:02:10,216 views INFO get {1: {'title': 'title1', 'content': 'content1'}, 2: {'title': 'title2', 'content': 'content2'}, 3: {'title': 'title3', 'content': 'content3'}, 4: {'title': 'title4', 'content': 'content4'}, 5: {'title': 'title5', 'content': 'content5'}}
+2020-12-24 15:02:10,222 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:02:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 15:02:20,393 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:02:20] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 15:02:20,416 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 15:02:20,418 views INFO {1: {'title': 'title1', 'content': 'content1'}, 2: {'title': 'title2', 'content': 'content2'}, 3: {'title': 'title3', 'content': 'content3'}, 4: {'title': 'title4', 'content': 'content4'}, 5: {'title': 'title5', 'content': 'content5'}, 6: {'title': 'title6', 'content': 'content6'}}
+2020-12-24 15:02:20,420 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 15:02:20,424 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:02:20] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 15:02:20,495 views INFO get {1: {'title': 'title1', 'content': 'content1'}, 2: {'title': 'title2', 'content': 'content2'}, 3: {'title': 'title3', 'content': 'content3'}, 4: {'title': 'title4', 'content': 'content4'}, 5: {'title': 'title5', 'content': 'content5'}, 6: {'title': 'title6', 'content': 'content6'}}
+2020-12-24 15:02:20,499 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:02:20] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 15:03:52,068 werkzeug INFO  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-12-24 15:04:06,357 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:04:06] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 15:04:10,458 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:04:10] "[37mOPTIONS /posts HTTP/1.1[0m" 200 -
+2020-12-24 15:04:10,475 views INFO {'title': 'title6', 'content': 'content6'}
+2020-12-24 15:04:10,482 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:04:10] "[37mPOST /posts HTTP/1.1[0m" 200 -
+2020-12-24 15:04:10,541 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:04:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-12-24 15:04:14,265 werkzeug INFO 172.22.0.1 - - [24/Dec/2020 15:04:14] "[37mGET / HTTP/1.1[0m" 200 -
