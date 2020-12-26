@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { fetchPosts } from "../actions";
+import { Link } from "react-router-dom";
 
 class PostList extends React.Component {
   componentDidMount() {
@@ -11,7 +12,9 @@ class PostList extends React.Component {
       return (
         <div class="item">
           <div className="right floated content">
-            <button class="ui secondary basic button">Edit</button>
+            <Link to={`post/${post.id}`} className="ui button secondary basic">
+              Edit
+            </Link>
             <button class="ui secondary basic button">Delete</button>
           </div>
           <div class="content">
