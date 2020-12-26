@@ -2,19 +2,26 @@ import React from "react";
 import { connect } from "react-redux";
 import { Field, reduxForm } from "redux-form";
 import { createPost } from "../actions";
+import validation from "./validation";
 
 class PostCreate extends React.Component {
-  renderInput = ({ input, label }) => {
+  renderError = ({ error, touched }) => {
+    if (error && touched) {
+      return <div style={{ color: "red" }}>{error}</div>;
+    }
+  };
+  renderInput = ({ input, label, meta }) => {
     return (
       <div className="field">
         <label>{label}</label>
         <input {...input}></input>
+        {this.renderError(meta)}
       </div>
     );
   };
-  onSubmit = (formValue) => {
+  onSubmit = (formValues) => {
     // handleSubmitによって、prevent.defaultが自動で呼び出される
-    this.props.createPost(formValue);
+    this.props.createPost(formValues);
   };
   render() {
     return (
@@ -37,5 +44,5 @@ class PostCreate extends React.Component {
 }
 
 export default connect(null, { createPost })(
-  reduxForm({ form: "postForm" })(PostCreate)
+  reduxForm({ form: "postForm", validate: validation })(PostCreate)
 );

@@ -10,6 +10,10 @@ class PostList extends React.Component {
     return this.props.posts.map((post) => {
       return (
         <div class="item">
+          <div className="right floated content">
+            <button class="ui secondary basic button">Edit</button>
+            <button class="ui secondary basic button">Delete</button>
+          </div>
           <div class="content">
             <div class="header">{post.title}</div>
             {post.content}
@@ -20,12 +24,8 @@ class PostList extends React.Component {
   };
   render() {
     return (
-      <div>
-        <div class="ui inverted segment">
-          <div class="ui inverted relaxed divided list">
-            {this.renderPostList()}
-          </div>
-        </div>
+      <div className="ui middle aligned divided list">
+        {this.renderPostList()}
       </div>
     );
   }

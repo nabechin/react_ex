@@ -1,2 +1,2 @@
-export const FetchPost = "FetchPost";
+export const FetchPosts = "FetchPost";
 export const CreatePost = "CreatePost";

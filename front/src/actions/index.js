@@ -1,10 +1,10 @@
-import { FetchPost, CreatePost } from "./type";
+import { FetchPosts, CreatePost } from "./type";
 import streams from "../api/streams";
 import history from "../history";
 
 export const fetchPosts = () => async (dispatch) => {
   const response = await streams.get("/");
-  dispatch({ type: FetchPost, payload: response.data });
+  dispatch({ type: FetchPosts, payload: response.data });
 };
 
 export const createPost = (formValues) => async (dispatch) => {
