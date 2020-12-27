@@ -20,12 +20,15 @@ class PostEdit extends React.Component {
     );
   };
   onSubmit = (formValues) => {
-    this.props.editPost(formValues);
+    this.props.editPost(formValues, this.props.match.params.id);
   };
   render() {
     return (
       <div>
-        <form className="ui form">
+        <form
+          className="ui form"
+          onSubmit={this.props.handleSubmit(this.onSubmit)}
+        >
           <Field
             name="title"
             label="title"
@@ -36,6 +39,9 @@ class PostEdit extends React.Component {
             label="content"
             component={this.renderInput}
           ></Field>
+          <button class="ui button" type="submit">
+            Edit
+          </button>
         </form>
       </div>
     );

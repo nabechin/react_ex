@@ -1,12 +1,43 @@
 import React from "react";
 import { connect } from "react-redux";
-import { fetchPosts } from "../actions";
+import { fetchPosts, deletePost } from "../actions";
 import { Link } from "react-router-dom";
+import Modal from "../components/Modal";
 
 class PostList extends React.Component {
-  componentDidMount() {
+  state = { show: false, deletedPost: null };
+  componentDidMount = () => {
     this.props.fetchPosts();
-  }
+  };
+  onModalClick = (post) => {
+    this.setState({ show: true });
+    this.setState({ deletedPost: post });
+  };
+  onClose = () => {
+    this.setState({ show: false });
+  };
+  onDeleteSubmit = (id) => {
+    this.props.deletePost(id);
+    this.setState({ show: false });
+  };
+  renderModal = () => {
+    if (this.state.show) {
+      return (
+        <div>
+          <Modal
+            onClose={() => {
+              this.onClose();
+            }}
+            title={this.state.deletedPost.title}
+            content={this.state.deletedPost.content}
+            onSubmit={() => {
+              this.onDeleteSubmit(this.state.deletedPost.id);
+            }}
+          ></Modal>
+        </div>
+      );
+    }
+  };
   renderPostList = () => {
     return this.props.posts.map((post) => {
       return (
@@ -15,7 +46,14 @@ class PostList extends React.Component {
             <Link to={`post/${post.id}`} className="ui button secondary basic">
               Edit
             </Link>
-            <button class="ui secondary basic button">Delete</button>
+            <button
+              class="ui secondary basic button"
+              onClick={() => {
+                this.onModalClick(post);
+              }}
+            >
+              Delete
+            </button>
           </div>
           <div class="content">
             <div class="header">{post.title}</div>
@@ -29,6 +67,7 @@ class PostList extends React.Component {
     return (
       <div className="ui middle aligned divided list">
         {this.renderPostList()}
+        {this.renderModal()}
       </div>
     );
   }
@@ -40,4 +79,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps, { fetchPosts })(PostList);
+export default connect(mapStateToProps, { fetchPosts, deletePost })(PostList);

@@ -4,7 +4,7 @@ from flask import Flask, make_response, jsonify, request
 from flask_cors import CORS, cross_origin
 
 
-logging.config.fileConfig('api/logging.ini')
+logging.config.fileConfig('api/logging.ini', disable_existing_loggers=True)
 logger = logging.getLogger(__name__)
 
 
@@ -34,6 +34,29 @@ def posts():
     new_post = request.json['id'] = len(post_list)
     post_list.append(new_post)
     return make_response(jsonify(new_post))
+
+
+@app.route('/posts/<int:id>', methods=['PATCH'])
+@cross_origin()
+def patch(id):
+    logger.info(f"patch id = {id}")
+    for post in post_list:
+        if post['id'] == id:
+            post['title'] = request.json['title']
+            post['content'] = request.json['content']
+            return make_response(jsonify(post))
+    return 'OK'
+
+
+@app.route('/posts/<int:id>', methods=['DELETE'])
+@cross_origin()
+def delete(id):
+    logger.info(f"delete id = {id}")
+    for post in post_list:
+        if post['id'] == id:
+            post_list.pop(id-1)
+            logger.info(post_list)
+            return jsonify({'message': 'delete success'}), 200
 
 
 if __name__ == "__main__":

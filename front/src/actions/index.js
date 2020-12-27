@@ -1,4 +1,4 @@
-import { CreatePost, EditPost, FetchPosts } from "./type";
+import { CreatePost, DeletePost, EditPost, FetchPosts } from "./type";
 import streams from "../api/streams";
 import history from "../history";
 
@@ -16,4 +16,11 @@ export const createPost = (formValues) => async (dispatch) => {
 export const editPost = (formValues, id) => async (dispatch) => {
   const response = await streams.patch(`/posts/${id}`, formValues);
   dispatch({ type: EditPost, payload: response.data });
+  history.push("/");
+};
+
+export const deletePost = (id) => async (dispatch) => {
+  await streams.delete(`/posts/${id}`);
+  dispatch({ type: DeletePost, payload: id });
+  history.push("/");
 };

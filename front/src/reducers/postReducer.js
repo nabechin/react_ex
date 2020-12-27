@@ -1,4 +1,4 @@
-import { CreatePost, EditPost, FetchPosts } from "../actions/type";
+import { CreatePost, EditPost, FetchPosts, DeletePost } from "../actions/type";
 import _ from "lodash";
 
 export default (state = {}, action) => {
@@ -9,6 +9,8 @@ export default (state = {}, action) => {
       return { ...state, ...action.payload };
     case EditPost:
       return { ...state, [action.payload.id]: action.payload };
+    case DeletePost:
+      return _.omit(state, action.payload);
     default:
       return state;
   }
